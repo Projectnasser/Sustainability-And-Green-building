@@ -1,0 +1,55 @@
+﻿<body> 
+ <header> 
+ <h1><i class="fas fa-leaf"></i> Sustainability & Green Building</h1> 
+ <p>Empowering Saudi Vision 2030</p> 
+ <nav> 
+ <a href="#about"><i class="fas fa-seedling"></i> About</a> 
+ <a href="#green-building"><i class="fas fa-building"></i> Green Building</a>  <a href="#vision"><i class="fas fa-flag"></i> Vision 2030 Goals</a> 
+ <a href="#project"><i class="fas fa-lightbulb"></i> My Project</a> 
+ </nav> 
+ </header> 
+ <main> 
+ <section id="about"> 
+ <h2><i class="fas fa-seedling"></i> What is Sustainability?</h2> 
+ <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Green_sustainability.jpg" alt="Sustainability Concept" /> 
+ <p>Sustainability means meeting our needs without compromising the ability of future generations to meet theirs...</p> 
+ <ul> 
+ <li><i class="fas fa-globe"></i> Environmental Protection: Conserving natural resources.</li>  <li><i class="fas fa-users"></i> Social Development: Improving the quality of life for all.</li>  <li><i class="fas fa-chart-line"></i> Economic Growth: Creating jobs and innovations sustainably.</li> 
+ </ul>
+ </section> 
+ <section id="green-building"> 
+ <h2><i class="fas fa-building"></i> Green Building in Saudi Arabia</h2>  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/KAUST_campus_%28cropped%29.jpg" alt="KAUST Green Building Saudi Arabia" /> 
+ <p>Green buildings aim to reduce the overall impact on the environment and human health...</p> 
+ <ul> 
+ <li><i class="fas fa-solar-panel"></i> Energy-efficient systems (solar panels, smart lighting)</li>  <li><i class="fas fa-water"></i> Water conservation (efficient plumbing, rainwater harvesting)</li> 
+ <li><i class="fas fa-recycle"></i> Sustainable materials (recyclable and local materials)</li>  <li><i class="fas fa-wind"></i> Improved indoor air quality</li> 
+ </ul> 
+ </section> 
+ <section id="vision"> 
+ <h2><i class="fas fa-flag"></i> Saudi Vision 2030 - Environmental Goals</h2>  <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Vision_2030_logo.svg" alt="Vision 2030 Saudi" /> 
+ <p>Saudi Vision 2030 is a strategic framework aimed at reducing Saudi Arabia's dependence on oil...</p> 
+ <ul>
+ <li><i class="fas fa-tree"></i> Planting 10 billion trees across the Kingdom.</li>  <li><i class="fas fa-solar-panel"></i> Generating 50% of electricity from renewables by 2030.</li> 
+ <li><i class="fas fa-burn"></i> Reducing carbon emissions by 278 million tons annually.</li>  <li><i class="fas fa-city"></i> Developing smart cities like NEOM with sustainability at their core.</li> 
+ </ul> 
+ </section> 
+ <section id="project"> 
+ <h2><i class="fas fa-lightbulb"></i> My Project: Sustainable Building Solutions</h2>  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Solar_panels_on_house_roof.jpg" alt="Project Concept - Solar Panels" /> 
+ <p>For this project, I focused on innovative building designs that align with the Vision 2030 goals...</p> 
+ <ul> 
+ <li><i class="fas fa-home"></i> Designing homes with natural cooling to reduce energy use.</li> 
+ <li><i class="fas fa-solar-panel"></i> Using solar panels for renewable energy generation.</li>  <li><i class="fas fa-cubes"></i> Utilizing local, sustainable building materials.</li>  <li><i class="fas fa-plug"></i> Integrating smart systems for water and electricity management.</li> 
+ </ul> 
+ </section>
+ </main> 
+ <footer> 
+ <p>Â© 2025 | Made with passion for Saudi Vision 2030.</p>  </footer> 
+ <script> 
+ document.querySelectorAll('a[href^="#"]').forEach(anchor => {  anchor.addEventListener('click', function (e) { 
+ e.preventDefault(); 
+ document.querySelector(this.getAttribute('href')).scrollIntoView({  behavior: 'smooth' 
+ }); 
+ }); 
+ }); 
+ </script> 
+</body>
